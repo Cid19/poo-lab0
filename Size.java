@@ -17,27 +17,43 @@ public enum Size
         this.code=code;
     }
     
+    /**
+      *return toString
+     **/
+    
     @Override
     public String toString()
     {
         return this.description;
     }
     
+    /**
+      *return metodo seletor getDescription
+     **/
     public String getDescription()
     {
         return description;
     }
     
+    /**
+      *return metodo seletor getMinValue
+     **/
     public int getMinValue()
     {
         return minValue;
     }
     
+    /**
+      *return metodo seletor getMaxValue
+     **/
     public int getMaxValue()
     {
         return maxValue;
     }
     
+    /**
+      *return metodo seletor getCode
+     **/
     public char getCode()
     {
         return code;
